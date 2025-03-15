@@ -1,27 +1,33 @@
-🐍 Welcome to the Pythonic Playground! 🚀
+# Expense Management System
 
-🚧 Crafting Code | 🐾 Python Enthusiast | 🌐 Building a Digital Symphony
+This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
 
-🔧 In the world of bits and bytes, I'm the Pythonic architect, constructing elegant solutions with lines of code.
 
-🔍 Exploring the endless possibilities of Python magic, from scripting sorcery to web wizardry. Join me in the journey of turning ideas into executable poetry.
+## Project Structure
 
-💻 Tech Stack:
+- **frontend/**: Contains the Streamlit application code.
+- **backend/**: Contains the FastAPI backend server code.
+- **tests/**: Contains the test cases for both frontend and backend.
+- **requirements.txt**: Lists the required Python packages.
+- **README.md**: Provides an overview and instructions for the project.
 
-Python 🐍
-Flask 🌐
-Django 🎸
-FastAPI ⚡
-Pandas 🐼
-Requests 📡
-Matplotlib 📊
-SQLAlchemy 🗃️
-🛠️ My code is not just functional; it's a work of art. Dive into the repositories to witness the symphony of logic and syntax.
 
-🎓 Pythonista on a perpetual quest for improvement. Learning, coding, and iterating — because perfection is a process, not a product.
+## Setup Instructions
 
-🌈 Embrace the snake, embrace the beauty of clean, efficient, and Pythonic code. Let's collaborate, contribute, and create Pythonic wonders together!
-
-📬 Open to collaboration, feedback, and Pythonic discussions. Drop by, fork the fun, and let's code something extraordinary.
-
-✨ "In the realm of algorithms, Python reigns supreme." ✨
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/expense-management-system.git
+   cd expense-management-system
+   ```
+1. **Install dependencies:**:   
+   ```commandline
+    pip install -r requirements.txt
+   ```
+1. **Run the FastAPI server:**:   
+   ```commandline
+    uvicorn server.server:app --reload
+   ```
+1. **Run the Streamlit app:**:   
+   ```commandline
+    streamlit run frontend/app.py
+   ```
